@@ -40,4 +40,4 @@ If you have any questions - feel free to reach out to us at support at device42.
 -----------------------------
 
     * add customers integration
-    * add error advance error handling
+    * add error advanced error handling
