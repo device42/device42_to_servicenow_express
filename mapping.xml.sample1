@@ -11,7 +11,7 @@
     </settings>
 
     <tasks>
-        <task enable="false" description="Copy from Device42 to Servicenow">
+        <task enable="true" description="Copy from Device42 to Servicenow">
             <mapping callback="from_d42" key="name" source="Devices" model="device">
                 <field resource="name" type="string" target="name"/>
                 <field resource="serial_no" type="string" target="serial_number"/>
@@ -62,7 +62,7 @@
             </mapping>
         </task>
 
-        <task enable="true" description="Copy from Device42 to Servicenow">
+        <task enable="false" description="Copy from Device42 to Servicenow">
             <mapping callback="from_d42" key="name" source="vendors" model="company">
                 <field resource="name" type="string" target="name"/>
                 <field resource="notes" type="string" target="notes"/>
